@@ -2,65 +2,93 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: montserrat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 html,body{
     height: 100%;
     width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+}
+nav{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(111, 86, 86);
+}
+nav ul{
+    justify-content: center;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+   text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+   color: rgba(7, 1, 12, 0.897);
+   font-size: 1.02rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px 0 ;
+}
+.firstsection>div{
+    width: 30%;
 }
 
-#main{
-    position: relative;
-    overflow: hidden;
+.rightsection{
+    width: 30%;
+    margin: 40px 0;
 }
-#page{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-color: #fff;
-}
-#page>img{
-    position: absolute;
-    right: 5%;
-    top: 45%;
-    transform: translateY(-50%);
-    width:50%;
-}
-#page>#nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0% 30%;
-    position: absolute;
-    z-index: 8%;
-    height: 10%;
-    width: 100%;
-}
-#nav>input{
-    padding: 10px 5px;
-    border-radius: 10px;
-    border: black;
-    text-transform: uppercase;
+.leftsection{
+    font-size: 2em;
    
-    
 }
-#center-nav{
+.name{
+    color: rgb(161, 80, 80);
+}
+.slogan{
+   color: rgb(125, 225, 214);
+}
+#element{
+    color: rgb(161, 80, 80);
+}
+.secondSection{
+    max-width: 80%;
+    margin: auto;
+    height: 96vh;
+}
+.secondSection h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    color: blanchedalmond;
+}
+main hr{
+    border: 1%;
+    background: rgb(182, 145, 97);
+    margin: 40px 80px;
+    height: 1.4px;
+}
+.secondSection .box{
+    background: blanchedalmond;
+    width: 80vw;
+    height: 3px;
+    margin: 56px 0;
     display: flex;
-    gap: 20px;
 }
-#center-nav>a{
-    text-decoration: none;
-    color:black;
-    font-weight: 500;
-}
-#page>#nav>img{
-    position: absolute;
-    height: 100%;
-    width: 5%;
-    left: 0%;
-}
-#page1{
-    height: 100vh;
-    width: 100vw;
-    background-color: #fff;
+.secondSection .vertical{
+    height: 90px;
+    width: 1px;
+    background-color: bisque;
+    margin: 0 100px;
 }
