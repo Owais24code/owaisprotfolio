@@ -92,3 +92,41 @@ main hr{
     background-color: bisque;
     margin: 0 100px;
 }
+.image-top{
+    width: 23px;
+    top: -30px;
+    left: -8px;
+    position: relative;
+}
+.vertical-title{
+    position: relative;
+    top: 68px;
+    width: 140px;
+}
+.vertical-desc{
+    top: 80px;
+    color: cornflowerblue;
+    width: 150px;
+    font-size: smaller;
+    position: relative;
+}
+footer{
+    background-color: rgb(23, 46, 67);
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer >div{
+    width: 222px ;
+}
+.footer ul{
+    list-style: none;
+}
+footer .footer-rights{
+    color: gray;
+    text-align: center;
+    padding: 23px 0px;
+}
